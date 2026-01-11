@@ -54,8 +54,8 @@ export default function Home() {
         respectReducedMotion={true}
       /></span><br /><span className='roles'>{roles[role].substring(0 , char)}</span><span className='typing'> |</span>
       </p>
-        <p className='introPara'>I build responsive, accessible and user-friendly web applications. I love converting designs   into clean, functional interfaces and bringing ideas to life with JavaScript.</p>
-        <Link><button> <IoIosBriefcase size={18} />Hire Me</button></Link>
+        <p className='introPara'>I build responsive, accessible and user-friendly web applications. I love converting designs into clean, functional interfaces and bringing ideas to life with JavaScript.</p>
+        <Link style={{width : "fit-content"}}><button> <IoIosBriefcase size={18} />Hire Me</button></Link>
       </div>
         <img src={HeroImg} alt="" className="hero-img"/>
     </section>
