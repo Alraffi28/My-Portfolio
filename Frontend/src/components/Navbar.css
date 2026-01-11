@@ -1,21 +1,23 @@
-.nav-container{
+.navbar{
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
   display: flex;
-  height: 60px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 9;
-  border-bottom: 1px solid rgba(11,35,63,0.07);
-  backdrop-filter: blur(6px);
+  z-index: 5;
 }
-.nav-links a{
-  text-decoration: none;
-  color: var(--navColor);
-  padding: 8px 20px;
-  border-radius: 28px;
-  font-weight: 600;
+.desktopLinks{
+  color: var(--text);
+  margin: 1rem;
+  cursor: pointer;
 }
-.nav-links a:hover{
-  background: rgba(11,126,161,0.06);
+.desktopLinks:hover{
+  color: var(--primary);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--primary);
 }

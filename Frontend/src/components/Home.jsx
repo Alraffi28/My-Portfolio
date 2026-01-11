@@ -39,8 +39,8 @@ export default function Home() {
     <>
     <section id='hero'>
       <div className="hero-text">
-        <h3>Hello it's Me</h3>
-        <Shuffle
+        <p className='hello'>Hello,</p>
+        <p className='introText'>I'm <span><Shuffle
         text="Mohammed Alraffi"
         shuffleDirection="right"
         duration={0.45}
@@ -52,12 +52,9 @@ export default function Home() {
         triggerOnce={true}
         triggerOnHover={true}
         respectReducedMotion={true}
-      />
-        <h2>I'm a 
-          <span> {roles[role].substring(0 , char)}</span>
-          <span className='typing'> |</span>
-        </h2>
-        <p>I build responsive, accessible and user-friendly web applications. I love converting designs into clean, functional interfaces and bringing ideas to life with JavaScript.</p>
+      /></span><br /><span className='roles'>{roles[role].substring(0 , char)}</span><span className='typing'> |</span>
+      </p>
+        <p className='introPara'>I build responsive, accessible and user-friendly web applications. I love converting designs   into clean, functional interfaces and bringing ideas to life with JavaScript.</p>
         <Link><button> <IoIosBriefcase size={18} />Hire Me</button></Link>
       </div>
         <img src={HeroImg} alt="" className="hero-img"/>
