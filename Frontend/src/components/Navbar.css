@@ -1,17 +1,21 @@
-.navbar{
+nav{
   height: 5rem;
-  width: 100vw;
-  max-width: 75rem;
+  width: 100%;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: sticky;
   top: 0;
   background: var(--bg);
   border-bottom: 1px solid rgba(11, 35, 63, 0.07);
   z-index: 5;
+}
+.logo{
+  object-fit: cover;
+  height: 3rem;
+  width: 4rem;
 }
 .desktopLinks{
   color: var(--text);
